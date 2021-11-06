@@ -1,0 +1,14 @@
+{
+  "name": "textarea-code-editor-react",
+  "version": "0.1.0",
+  "description": "Textarea code editor for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "George Rodier",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
