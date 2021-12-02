@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/esm",
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react",
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitReturn": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true
+  },
+  "include": ["src"]
+}
