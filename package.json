@@ -4,7 +4,10 @@
   "description": "Textarea code editor for React",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outdir dist/cjs"
   },
   "author": "George Rodier",
   "license": "MIT",
