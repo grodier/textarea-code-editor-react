@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "dist/esm",
+    "outDir": "dist",
     "module": "esnext",
     "target": "es6",
     "jsx": "react",
     "declaration": true,
+    "declarationDir": "dist",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitAny": true,
